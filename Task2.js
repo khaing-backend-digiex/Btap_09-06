@@ -1,0 +1,7 @@
+const users = [
+{ id: 1, name: "John", age: 20 },
+{ id: 2, name: "Jane", age: 25 },
+{ id: 3, name: "Mike", age: 30 },
+];  
+const userNames = users.map(user => user.name);
+console.log(userNames);
